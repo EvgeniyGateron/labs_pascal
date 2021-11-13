@@ -1,4 +1,4 @@
-program lab1;
+program lab_2_5_1;
 
 uses Math, sysutils;
 
