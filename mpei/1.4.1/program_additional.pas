@@ -1,4 +1,4 @@
-program lab_1_4_1;
+program program_1_4_1;
 
 uses Math, sysutils;
 
@@ -16,14 +16,11 @@ begin
   writeln('n');
   readln(n);
   setlength(arr, n);
-  for i := 0 to n - 1 do 
-  begin 
-  write('arr[', i, ']='); 
-  read(arr[i]); 
-  end;
   writeln('x  y');
   for array_element in arr do
   begin
-    writeln(array_element:2:2, ' ', big_brain_formula(array_element):2:2);
-  end; 
+    write('arr[]='); 
+    read(array_element);
+    writeln(' ',array_element, ' ', big_brain_formula(array_element));
+  end;
 end.
