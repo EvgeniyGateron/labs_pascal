@@ -1,4 +1,4 @@
-program lab_2_5_2;
+﻿program lab_2_5_2;
 
 uses Math, sysutils;
 
@@ -6,7 +6,7 @@ type
   matrix = array of array of integer;
 
 var
-  n, sum, x, y: integer;
+  n, sum, x, y: integer;ё
   temp: boolean;
   matrix1: matrix;
   array1: array of integer;
@@ -42,5 +42,5 @@ begin
     array1[x] := 1;
     write(array1[x], ' ');
   end;
-  
+  writeln('sum ', sum);
 end.

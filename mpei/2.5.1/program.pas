@@ -1,6 +1,6 @@
-program lab_2_5_1;
+﻿program lab_2_5_1;
 
-uses Math, sysutils;
+uses math, sysutils;
 
 var
   n, c, x, y: integer;
@@ -11,19 +11,19 @@ begin
   writeln('r1 r2');
   read(r1, r2);
   
-  Randomize;
+  randomize;
   for x := 0 to 9 do
   begin
     for y := 0 to 2 do
     begin
-      matrix[x, y] := Random(trunc(r2));
+      matrix[x, y] := random(trunc(r2));
     end;
   end;
   
-  for X := 0 to 9 do
+  for x := 0 to 9 do
   begin
-    Write(Matrix[x, 0], ' ', Matrix[x, 1], Matrix[x, 2]);
-    WriteLn;
+    write(matrix[x, 0], ' ', matrix[x, 1],' ', matrix[x, 2]);
+    writeln;
   end;
   
   for x := 0 to 9 do
@@ -40,5 +40,5 @@ begin
     
   end;
   
-  writeln(c);
+  writeln('kolvo ',c);
 end.
