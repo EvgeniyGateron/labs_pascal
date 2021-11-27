@@ -1,4 +1,4 @@
-program lab_5_2_1_and_5_2_2;
+﻿program lab_5_2_1_and_5_2_2;
 
 uses sysutils, strutils, crt, DateUtils;
 
